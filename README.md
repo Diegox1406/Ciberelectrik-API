@@ -13,64 +13,27 @@ Sistema backend que proporciona servicios para la gestión de productos, categor
 - **Patrón**: Repository Pattern
 - **Comunicación**: Stored Procedures
 
-## 📁 Estructura del Proyecto
+## 📖 Descripción
 
-```
-pe.com.ciberelectrik.api/
-├── Controllers/
-│   ├── CategoriaController.cs
-│   ├── ClienteController.cs
-│   ├── DetalleTicketPedidoController.cs
-│   ├── DistritoController.cs
-│   ├── EmpleadoController.cs
-│   ├── MarcaController.cs
-│   ├── ProductoController.cs
-│   ├── RolController.cs
-│   ├── TicketPedidoController.cs
-│   └── TipoDocumentoController.cs
-├── Models/
-│   ├── db/
-│   └── repository/
-└── README.md
-```
+Sistema backend robusto que proporciona servicios RESTful para la gestión completa de:
+- 📦 Catálogo de productos
+- 🏷️ Categorías y marcas
+- 👥 Clientes y empleados
+- 🎫 Pedidos y tickets de venta
+- 📍 Ubicaciones (distritos)
+- 🔐 Roles y permisos
 
-## 🚀 Endpoints Principales
+---
 
-### Categorías
-- `GET /api/categoria` - Obtener todas las categorías activas
-- `GET /api/categoria/all` - Obtener todas las categorías
-- `POST /api/categoria` - Registrar nueva categoría
-- `PUT /api/categoria` - Actualizar categoría
-- `DELETE /api/categoria/{id}` - Eliminar categoría
-- `PUT /api/categoria/enable/{id}` - Habilitar categoría
+## ✨ Características
 
-### Clientes
-- Gestión completa de clientes
+- ✅ API RESTful con arquitectura limpia
+- ✅ Patrón Repository para acceso a datos
+- ✅ Stored Procedures para operaciones de base de datos
+- ✅ Operaciones CRUD completas
+- ✅ Soft delete (deshabilitación de registros)
+- ✅ Respuestas JSON estructuradas
+- ✅ Manejo de errores y excepciones
+- ✅ Separación de responsabilidades
 
-### Productos
-- Gestión de productos y catálogo
 
-### Pedidos
-- Gestión de tickets de pedido
-- Gestión de detalles de pedido
-
-### Empleados
-- Gestión de empleados y roles
-
-### Otros
-- Marcas
-- Distritos
-- Tipos de documento
-
-## 🔧 Configuración
-
-### Prerrequisitos
-- Visual Studio 2019 o superior
-- .NET Framework 4.x
-- SQL Server 2016 o superior
-- IIS (para despliegue)
-
-- ASP.NET Web API
-- ADO.NET
-- SQL Server
-- Entity Framework 
